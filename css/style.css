@@ -7,6 +7,16 @@
 
 
 /* regole header */
+
+header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255,105,0);
+}
+
 #headercontainer{
     display: flex;
     justify-content: space-evenly;
@@ -56,6 +66,59 @@ article span{
 article img{
     max-width: 640px;
     max-height: 924px;
+}
+#img1{
+    content: url("../img/1.webp");
+
+}
+#img1:hover{ 
+    content: url("../img/1b.webp");
+    cursor: pointer;
+    
+}
+#img2{
+    content: url("../img/2.webp");
+
+}
+#img2:hover{ 
+    content: url("../img/2b.webp");
+    cursor: pointer;  
+}
+#img3{
+    content: url("../img/3.webp");
+
+}
+#img3:hover{ 
+    content: url("../img/3b.webp");
+    cursor: pointer;
+    
+}
+#img4{
+    content: url("../img/4.webp");
+
+}
+#img4:hover{ 
+    content: url("../img/4b.webp");
+    cursor: pointer;
+    
+}
+#img5{
+    content: url("../img/5.webp");
+
+}
+#img5:hover{ 
+    content: url("../img/5b.webp");
+    cursor: pointer;
+    
+}
+#img6{
+    content: url("../img/6.webp");
+
+}
+#img6:hover{ 
+    content: url("../img/6b.webp");
+    cursor: pointer;
+    
 }
 .prodotto-brand{
 
@@ -123,40 +186,37 @@ article img{
 }
 
 /* footer  */
+
+
 footer{
     color: white;
+    background-color: rgb(26,26,26);
+    width: 100%;
+    flex-wrap: nowrap;
+
 }
 footer a{
     text-decoration: none;
     color: white;
+    padding-right: 10px;
+   
+}
+footer li {
+    line-height: 50px;
 }
 footer div{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-self: center;
     
 }
 footer ul{
     list-style-type: none;
     font-size: 20px;
-    padding-top: 20px;
+    padding:  40px 0 40px 0;
     align-self: center;
+
 }
 
 /* debug */
 
-header {
-    position: fixed;
-    z-index: 999;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: rgb(255,105,0);
-    /* height: 150px; */
-}
-
-
-footer{
-    height: 200px;
-    background-color: rgb(26,26,26);
-}
