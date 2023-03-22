@@ -47,7 +47,28 @@ article{
     padding-bottom: 100px;
     
 }
+article span{
+    display: block;
+}
+.prodotto-brand{
 
+}
+.prodotto-nome{
+    font-size: larger;
+}
+.prodotto-nome ,.prodotto-prezzo{
+    font-weight: bold ;
+}
+.prodotto-prezzo{
+    color: red;
+    
+}
+.prodotto-prezzo ,.prodotto-prezzo-originale{
+    display: inline-block;
+}
+.prodotto-prezzo-originale{
+   text-decoration: line-through;
+}
 
 /* debug */
 
