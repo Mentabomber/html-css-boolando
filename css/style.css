@@ -4,6 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
 /* regole header */
 #headercontainer{
     display: flex;
@@ -51,6 +53,10 @@ article{
 article span{
     display: block;
 }
+article img{
+    max-width: 640px;
+    max-height: 924px;
+}
 .prodotto-brand{
 
 }
@@ -90,23 +96,24 @@ article span{
 }
 
 .box-sale{
-    position: absolute;
-    left: 0;
+    
     background-color: red;
     width: 70px;
-    
 }
 
 .box-sustain{
-    margin: 0 0;
-    position: absolute;
+    left: 75px;
+}
+.box-sustain-overide ,.box-sustain{
     width: 140px;
     background-color: green;
+}
+.box-sustain-overide,.box-sale{
     left: 0;
-    margin-left: 100px; 
 }
 
-.box-sustain ,.box-sale{
+.box-sustain ,.box-sale, .box-sustain-overide{
+    position: absolute;
     bottom: 60px;
     text-align: center;
     height: 25px;
@@ -114,6 +121,28 @@ article span{
     font-size: 21px;
     font-weight: bold;
 }
+
+/* footer  */
+footer{
+    color: white;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer div{
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    
+}
+footer ul{
+    list-style-type: none;
+    font-size: 20px;
+    padding-top: 20px;
+    align-self: center;
+}
+
 /* debug */
 
 header {
