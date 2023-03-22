@@ -1,0 +1,45 @@
+/* regole generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* regole main */
+
+.container{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+    
+}
+article{
+    display: flex;
+    gap: 5px;
+    
+}
+
+
+/* debug */
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: orange;
+    height: 150px;
+}
+
+main{
+    margin-bottom: 30px;
+    padding: 0 20px;
+    margin-top: 180px;
+    width: 100%;
+}
+
+footer{
+    height: 200px;
+    background-color: black;
+    border: solid 2px black;
+}
