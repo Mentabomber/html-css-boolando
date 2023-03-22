@@ -47,6 +47,7 @@ article{
     padding-bottom: 100px;
     
 }
+/* intestazione articoli */
 article span{
     display: block;
 }
@@ -70,10 +71,54 @@ article span{
    text-decoration: line-through;
 }
 
+/* box interni immagini articoli  */
+
+.div-box{
+    position: relative;
+    display: flex;
+    justify-content: end;
+}
+.box-heart{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    text-align: center;
+    font-size: 45px; /* ho settato il size in maniera che mi venga centrato dentro il box bianco */
+    width: 50px;
+    height: 50px;
+}
+
+.box-sale{
+    position: absolute;
+    left: 0;
+    background-color: red;
+    width: 70px;
+    
+}
+
+.box-sustain{
+    margin: 0 0;
+    position: absolute;
+    width: 140px;
+    background-color: green;
+    left: 0;
+    margin-left: 100px; 
+}
+
+.box-sustain ,.box-sale{
+    bottom: 60px;
+    text-align: center;
+    height: 25px;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
 /* debug */
 
 header {
     position: fixed;
+    z-index: 999;
     top: 0;
     left: 0;
     width: 100%;
